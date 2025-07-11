@@ -1,13 +1,13 @@
 *{
-
-    background-color: #b1a5fb;
-/* }
+    margin: 0px auto;
+}
 body{
-margin: 0px auto;
-padding: 0px; */
-
+    background-color: #9fbbd244;
 }
 /* shared style */
+.bg-clr{
+    background-color: transparent;
+}
 .primary-button{
     background-color: #4E47FF;
     color: white;
@@ -41,6 +41,7 @@ padding: 0px; */
     justify-content: space-between;
     align-items: center;
     margin: 10px 150px;
+    background-color: transparent;
 }
 .navbar h2{
     font-size: 34px;
@@ -91,7 +92,7 @@ padding: 0px; */
 }
 /* user number section starts here */
 .user-container {
-    background-color: #dbdaff;
+    background-color: #dbdaffba;
     background-size: cover;
     height: 310px;
     width: 1080px;
@@ -224,4 +225,53 @@ padding: 0px; */
 }
 .rfb-secton input{
     margin-bottom: 20px;
+}
+.msg-er-abba{
+    display: flex;
+    gap: 100px;
+    padding: 50px;
+    /* margin: 100px 300px; */
+    display: flex;
+    align-items: center;
+}
+.msg-section{
+    width:max-content;
+    height: 800px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+
+    text-align: left;
+}
+.msg-section h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.inputt{
+    height: 50px;
+    width: 300px;
+    display: block;
+    border-radius: 10PX;
+    border: none;
+    padding: 20px 280px 20px 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.lbl{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.textarea{
+    font-size: 20px;
+    height: 135px;
+    width: 300px;
+    border-radius: 10px;
+    display: block;
+    padding: 20px 280px 20px 30px;
+    border: none;
+    margin-bottom: 20px;
+}
+.right-clumn button{
+    width: 100%;
 }
