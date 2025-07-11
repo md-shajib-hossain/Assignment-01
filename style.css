@@ -1,6 +1,11 @@
 *{
-margin: 0px;
-padding: 0px;
+
+    background-color: #b1a5fb;
+/* }
+body{
+margin: 0px auto;
+padding: 0px; */
+
 }
 /* shared style */
 .primary-button{
@@ -183,4 +188,40 @@ padding: 0px;
 }
 .icon{
     color: rgb(255, 137, 2);
+}
+
+/* rfb section starts here */
+.ready-to-section{
+    /* width: 90%;
+    height: 100% */
+    
+
+    
+}
+.rfb-secton{
+    background-color: white;
+    border-radius: 15px;
+    margin: 140px 150px;
+    padding: 70px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rfb-secton img{
+    border-radius: 48px;
+}
+.rfb-secton h1{
+    background-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.rfb-secton p{
+    font-size: 16px;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+.rfb-secton input{
+    margin-bottom: 20px;
 }
