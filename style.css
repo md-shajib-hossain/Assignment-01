@@ -237,7 +237,7 @@ body{
 .msg-section{
     width:max-content;
     height: 800px;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     display: flex;
     align-items: center;
 
@@ -274,4 +274,42 @@ body{
 }
 .right-clumn button{
     width: 100%;
+}
+
+
+/* Footer ssstyles */
+
+.footer-content{
+    gap: 40px;
+    text-align: center;
+    height: 430px;
+    width:100%;
+    background-color: white;
+    padding: 60px 80px;
+
+}
+.footer-content h1{
+    font-size: 100px;
+    font-weight: Bolder;
+    color: #4E47FF;
+    margin-bottom: 25px;
+}
+.footer-content p{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.footer-content a{
+    text-decoration: none;
+    color: black;
+}
+.anchor{
+display: flex;
+margin: 0px 500px;
+font-size: 16px,
+
+}
+.primary-button:hover{
+    background-color: orange;
+    cursor: pointer;
+    transform:scale(1.05);
 }
