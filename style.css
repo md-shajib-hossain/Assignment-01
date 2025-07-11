@@ -28,7 +28,7 @@ padding: 0px;
  .hero-section{  
     background:linear-gradient(rgba(5, 5, 5, 0.024)), url("./Assets/Hero-bg.png");
     background-size: cover;
-    height: 900px;
+    height: 800px;
 }
 .navbar{
     display: flex;
@@ -61,8 +61,7 @@ padding: 0px;
     max-width: 520px;
 }
 .banner{
-    /* width: 1140px;
-    height: 330px; */
+    height: 330px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,4 +82,50 @@ padding: 0px;
     font-size: 24px;
     color: #252432;
     margin-bottom: 24px;
+}
+/* user number section starts here */
+.user-container {
+    background-color: #dbdaff;
+    background-size: cover;
+    height: 310px;
+    width: 1140px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 110px 160px;
+    padding: 50px 140px;
+    /* gap: 20px; */
+
+}
+.user-title{
+    font-size:20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.follower-num{
+    display: flex;
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    font-family: 'Times New Roman', Times, serif;
+}
+.follower-desc{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, 0.509);
+}
+.user-followers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 150px;
+}
+.user-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
