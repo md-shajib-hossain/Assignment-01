@@ -148,7 +148,7 @@ body{
     margin-bottom: 8px;
 }
 .review-column{
-    max-width: 300px;
+    max-width: 250px;
     height: 245px;
     margin-bottom: 24px;
     padding: 25px;
@@ -156,15 +156,12 @@ body{
     background-color: white;
     border-radius: 15px;
 }
-.review-column img{
-    background-repeat: repeat-y;
-    background-size: cover;
-}
+
 .review-input-part{
     display: flex;
-    justify-content:flex-start;
-    align-items: flex-start;
-    gap: 20px;
+    justify-content:center;
+    align-items:center;
+    gap:5px;
 }
 .review-input-part img{
     border-radius: 50%;
@@ -174,9 +171,11 @@ body{
 }
 .review-container{
     display:flex;
+    justify-content: space-around;
     margin: 0px auto;
     padding: 24px;
     height: 400px;
+    width: 500px;
     flex-wrap: nowrap;
 }
 .review-title{
@@ -190,10 +189,12 @@ body{
 }
 .review-er-abba{
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    display: block;
-    width: 1440px;
-    margin: 0px auto;
+    display:inline-flex;
+    gap: 5px;
+    width: 1140px;
+    margin:0px 250px;
 }
 .icon{
     color: rgb(255, 137, 2);
